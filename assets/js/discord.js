@@ -63,35 +63,6 @@ var channelData = [{
 			}]
 		}
 	}]
-}, {
-	name: 'search',
-	messages: [{
-		type: 'input',
-		text: '/codeseach search:python loops exaples:10',
-		user: users.phineas
-	}, {
-		type: 'message',
-		delay: 350,
-		user: users.paragon,
-		text: '[emoji id="1f5d2"] Queued: Trap Nation: 2018 Best Trap Music',
-		embedData: {
-			title: '-=-=-=-=-= Music =-=-=-=-=-',
-			pill: 'hsl(202, 35%, 68%)',
-			thumb: 'https://images-ext-2.discordapp.net/external/Zdj-EIYZixh-NSFIQrmwLq6wn8RjzwEk4Hebb--Mryk/https/i.ytimg.com/vi/KOgvA98FifU/hqdefault.jpg?width=80&height=60',
-			fields: [{
-				name: 'Now Streaming',
-				value: 'Trap Nation: 2018 Best Trap Music'
-			}, {
-				name: 'Duration',
-				value: '02:26:33'
-			}, {
-				name: 'Channel',
-				value: 'Uploaded by [strong text="Trap Nation"]'
-			}],
-			footerIcon: users.phineas.avatar,
-			footer: 'Requested By ' + users.phineas.username
-		}
-	}]
 }];
 
 var bracketsReplaceRegex = /\[(\S*)\s?(.*?)?\]/g;
