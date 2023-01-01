@@ -11,7 +11,7 @@ var users = {
 		avatar: 'https://cdn.discordapp.com/avatars/94490510688792576/a_46a9fccf4764d0311943d875cdc07128.webp?size=128'
 	},
 	paragon: {
-		username: 'CodeSeach',
+		username: 'CodeSearch',
 		nameColor: 'hsl(212, 51%, 59%)',
 		bot: true,
 		avatar: 'assets/img/gallery/logo2.png'
